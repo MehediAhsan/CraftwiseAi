@@ -12,11 +12,11 @@ const Navbar = () => {
         <nav className="flex items-center justify-between pt-5">
             <Link to='/' className="flex items-center gap-2">
                 <img src="/icon.png" alt="logo" className="w-8" />
-                <span className="text-xl font-bold text-indigo-600 tracking-wider">CraftwiseAi</span>
+                <span className="text-xl font-bold text-primary md:tracking-wider">CraftwiseAi</span>
             </Link>
             {
-                user ? <UserButton /> : <button onClick={openSignIn} className="bg-indigo-600 hover:bg-indigo-700 text-white text-sm px-5 py-2 rounded-full flex items-center space-x-1 transition cursor-pointer">
-                    <span>get started</span>
+                user ? <UserButton /> : <button onClick={openSignIn} className="bg-primary hover:bg-indigo-700 text-white text-sm px-4 md:px-5 py-2 rounded-full flex items-center space-x-1 transition cursor-pointer">
+                    <span>Get Started</span>
                     <ArrowRight className="w-4 h-4" />
                 </button>
             }
