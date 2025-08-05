@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/home/Navbar';
 import HeroSection from '../components/home/HeroSection';
 import AITools from '../components/home/AITools';
+import Testimonials from '../components/home/Testimonials';
 
 const Home = () => {
     return (
@@ -9,6 +10,7 @@ const Home = () => {
             <Navbar />
             <HeroSection />
             <AITools />
+            <Testimonials />
         </div>
     );
 };
