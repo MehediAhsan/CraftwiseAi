@@ -10,8 +10,8 @@ const Navbar = () => {
 
     return (
         <nav className="flex items-center justify-between pt-5">
-            <Link to='/' className="flex items-center gap-2">
-                <img src="/icon.png" alt="logo" className="w-8" />
+            <Link to='/' className="flex items-center">
+                <img src="/icon.png" alt="logo" className="w-12" />
                 <span className="text-xl font-bold text-primary md:tracking-wider">CraftwiseAi</span>
             </Link>
             {

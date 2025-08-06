@@ -51,12 +51,11 @@ const Testimonials = () => {
       scrollInterval = setInterval(() => {
         if (scrollContainer) {
           scrollContainer.scrollLeft += 1;
-          // Reset scroll to start for infinite loop
           if (scrollContainer.scrollLeft >= scrollContainer.scrollWidth - scrollContainer.clientWidth) {
             scrollContainer.scrollLeft = 0;
           }
         }
-      }, 10); // control scroll speed
+      }, 10);
     };
 
     if (!isHovered) {
@@ -67,7 +66,7 @@ const Testimonials = () => {
   }, [isHovered]);
 
   return (
-    <section className="py-20 text-center">
+    <section className="py-30 text-center">
       <h2 className="text-3xl font-bold mb-2">Loved by Creators</h2>
       <p className="text-gray-500 mb-10 max-w-xl mx-auto">
         Don’t just take our word for it. Here’s what our users are saying.
