@@ -1,4 +1,4 @@
-import React from 'react';
+import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
   return (
@@ -15,9 +15,9 @@ const HeroSection = () => {
         </p>
         
         <div className="mt-8 flex flex-col sm:flex-row justify-center items-center gap-4">
-          <button className="px-6 py-3 text-white bg-primary hover:bg-indigo-700 rounded-xl text-base font-medium transition">
-            Start Free Trial
-          </button>
+          <Link to='/dashboard' className="px-6 py-3 text-white bg-primary hover:bg-indigo-700 rounded-xl text-base font-medium transition">
+            Start Now
+          </Link>
           <button className="px-6 py-3 border border-gray-300 text-gray-700 hover:border-gray-500 rounded-xl text-base font-medium transition">
             Learn More
           </button>
