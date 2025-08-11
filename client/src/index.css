@@ -5,4 +5,5 @@
 @theme {
   --font-jost: "Jost", sans-serif;
   --color-primary: oklch(0.511 0.262 276.966);
+  --color-light: #EBEBEB;
 }

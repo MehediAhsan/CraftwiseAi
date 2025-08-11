@@ -7,7 +7,7 @@ const Sidebar = ({ open, setOpen }) => {
     const location = useLocation();
 
     return (
-        <aside className={`fixed z-40 top-0 left-0 h-full w-64 bg-white shadow-md p-4 transition-transform duration-300 transform
+        <aside className={`fixed z-40 top-0 left-0 h-full w-64 bg-white border-r-2 border-light p-4 transition-transform duration-300 transform
         ${open ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0 md:static md:block`}>
 
             <div className='mb-8'>

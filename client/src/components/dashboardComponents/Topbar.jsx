@@ -7,7 +7,7 @@ const Topbar = ({ open, setOpen }) => {
     const location = useLocation();
 
     return (
-        <header className='w-full bg-white border-b border-gray-200 h-16 flex items-center justify-between px-4 md:px-6'>
+        <header className='w-full bg-white border-b-2 border-light h-16 flex items-center justify-between px-4 md:px-6'>
             <h2 className='text-lg font-semibold text-gray-800'>{navItems.find(item => item.path === location.pathname).name}</h2>
 
             <div className='flex items-center gap-4'>
