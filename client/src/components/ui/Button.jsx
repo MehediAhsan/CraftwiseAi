@@ -7,7 +7,7 @@ const VARIANTS = {
 
 const GRADIENTS = {
     primary: "bg-gradient-to-r from-blue-500 to-blue-400",
-    secondary: "bg-gradient-to-r from-gray-500 to-gray-400",
+    secondary: "bg-gradient-to-r from-violet-500 to-violet-400",
     danger: "bg-gradient-to-r from-red-500 to-red-400",
 };
 

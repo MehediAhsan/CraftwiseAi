@@ -5,6 +5,7 @@ import Dashboard from '../pages/dashboard/Dashboard';
 import Settings from '../pages/dashboard/Settings';
 import NotFound from './NotFound';
 import WriteArticle from '../pages/dashboard/WriteArticle';
+import BlogTitles from '../pages/dashboard/BlogTitles';
 
 const AppRoutes = () => {
     return (
@@ -15,6 +16,7 @@ const AppRoutes = () => {
                 <Route index element={<Dashboard />} />
                 <Route path='settings' element={<Settings />} />
                 <Route path='write-article' element={<WriteArticle />} />
+                <Route path='blog-titles' element={<BlogTitles />} />
             </Route>
             <Route path="*" element={<NotFound />} />
         </Routes>

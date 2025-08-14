@@ -20,7 +20,7 @@ export default function OptionSelect({
     return (
         <div>
             {label && <label className="block text-sm font-medium mb-2">{label}</label>}
-            <div className="flex gap-3">
+            <div className="flex gap-3 flex-wrap">
                 {options.map((opt) => {
                     const isActive = selected === opt.value;
                     return (
