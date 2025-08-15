@@ -6,6 +6,7 @@ import Settings from '../pages/dashboard/Settings';
 import NotFound from './NotFound';
 import WriteArticle from '../pages/dashboard/WriteArticle';
 import BlogTitles from '../pages/dashboard/BlogTitles';
+import GenerateImages from '../pages/dashboard/GenerateImages';
 
 const AppRoutes = () => {
     return (
@@ -17,6 +18,7 @@ const AppRoutes = () => {
                 <Route path='settings' element={<Settings />} />
                 <Route path='write-article' element={<WriteArticle />} />
                 <Route path='blog-titles' element={<BlogTitles />} />
+                <Route path='generate-images' element={<GenerateImages />} />
             </Route>
             <Route path="*" element={<NotFound />} />
         </Routes>

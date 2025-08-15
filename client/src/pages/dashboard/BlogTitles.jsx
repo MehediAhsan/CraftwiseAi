@@ -27,8 +27,8 @@ export default function BlogTitles() {
             label="Keyword"
             placeholder="Write Keyword..."
             register={register}
-            rules={{ required: "Please enter an article topic" }}
-            error={errors.topic?.keyword}
+            rules={{ required: "Please enter a keyword" }}
+            error={errors.keyword?.message}
           />
           <OptionSelect
             name="category"
