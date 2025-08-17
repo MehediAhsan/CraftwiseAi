@@ -33,8 +33,8 @@ const Sidebar = ({ open, setOpen }) => {
                         key={item.name}
                         className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm transition 
                 ${location.pathname === item.path
-                                ? 'bg-violet-100 text-primary font-medium'
-                                : 'text-gray-700 hover:bg-gray-100'}`}
+                                ? 'bg-gradient-to-r from-violet-500 to-indigo-400 text-white font-medium'
+                                : 'text-gray-800 hover:bg-gray-200'}`}
                         onClick={() => setOpen(false)}
                     >
                         <item.icon size={18}/>
