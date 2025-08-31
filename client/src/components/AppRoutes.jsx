@@ -9,6 +9,7 @@ import BlogTitles from '../pages/dashboard/BlogTitles';
 import GenerateImages from '../pages/dashboard/GenerateImages';
 import RemoveBg from '../pages/dashboard/RemoveBg';
 import RemoveObject from '../pages/dashboard/RemoveObject';
+import ResumeReview from '../pages/dashboard/ResumeReview';
 
 const AppRoutes = () => {
     return (
@@ -23,6 +24,7 @@ const AppRoutes = () => {
                 <Route path='generate-images' element={<GenerateImages />} />
                 <Route path='remove-bg' element={<RemoveBg />} />
                 <Route path='remove-object' element={<RemoveObject />} />
+                <Route path='resume-review' element={<ResumeReview />} />
             </Route>
             <Route path="*" element={<NotFound />} />
         </Routes>
